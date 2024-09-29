@@ -23,7 +23,11 @@
 </head>
 
 <body class="sub_page">
-
+ <% if (request.getParameter("error") != null) { %>
+      <script>
+          alert("Invalid email or password. Please try again.");
+      </script>
+  <% } %>
   <div class="hero_area">
     <div class="bg-box">
       <img src="images/hero-bg.jpg" alt="">
@@ -87,7 +91,7 @@
                           </div>
                         </div>
                       </div>
-                      <form action="#!">
+                      <form action="login" method="post">
                         <div class="row gy-3 overflow-hidden">
                           <div class="col-12">
                             <div class="form-floating mb-3">

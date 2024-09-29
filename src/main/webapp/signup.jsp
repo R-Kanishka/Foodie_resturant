@@ -86,7 +86,7 @@
                           </div>
                         </div>
                       </div>
-                      <form action="#!">
+                     <form action="register" method="post">
                         <div class="row gy-3 overflow-hidden">
                           <div class="col-12">
                             <div class="form-floating mb-3">
@@ -95,7 +95,7 @@
                           </div>
                           <div class="col-12">
                             <div class="form-floating mb-3">
-                              <input type="text" class="form-control" name="adress" id="adress" placeholder="Adress" required>
+                              <input type="text" class="form-control" name="address" id="address" placeholder="Address" required>
                             </div>
                           </div>
                           <div class="col-12">
